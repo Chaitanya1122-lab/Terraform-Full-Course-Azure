@@ -2,6 +2,8 @@
 
 ## What is Infra as a Code
 - Provisioning your infra through code
+- Infrastructure as Code (IaC) means managing and provisioning your IT infrastructure (like servers, networks, storage, etc.) using code instead of manual setup.
+Just like developers write code to build applications, with IaC, you write code to build and manage infrastructure.
 
 ![image](https://github.com/user-attachments/assets/79596c6d-2723-405e-bb12-dad162354987)
 
