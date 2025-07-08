@@ -13,6 +13,7 @@ Just like developers write code to build applications, with IaC, you write code 
 - Why take the pain of writing code for drag and drop?
 
 <img width="727" alt="image" src="https://github.com/user-attachments/assets/fcc61fb6-5327-478a-a08b-b7b633f9d3d2" />
+
 - Real-Time Analogy for Infrastructure as Code (IaC):
 Think about setting up a new laptop at your company.
 
