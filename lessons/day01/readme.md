@@ -21,8 +21,7 @@ Manual method: Every time a new employee joins, an IT person manually installs s
 
 IaC way: The company has a script (code) that automatically sets up the laptop exactly the same way — with all required software and settings — in just minutes.
 
-- In the same way, If we are creating resources on Azure. We go to each resource like virtual machines, database, web app, storage account etc., and click on create, give the resource names selecting the drop down options, ticking the check boxes required, then we click on create and deploy the resources. Creating each resource manually takes time and there is also a chance 
-of human errors.
+- In the same way, If we are creating resources on Azure. We go to each resource, example will go to virtual machines and click on create, give the resource names selecting the drop down options, ticking the required check boxes, then we click on create and deploy the resources. Creating each resource manually takes time and there is also a chance of human errors.
 - Using IaC, we can write the code not just for one resource, for multiple resources like virtual machines, database, storage account or any other resource and you can deploy it with a single command.
 - Let's assume you have to provision the infra to deploy a three-tier application
 Time taken: 2 hours
