@@ -13,6 +13,12 @@ Just like developers write code to build applications, with IaC, you write code 
 - Why take the pain of writing code for drag and drop?
 
 <img width="727" alt="image" src="https://github.com/user-attachments/assets/fcc61fb6-5327-478a-a08b-b7b633f9d3d2" />
+- Real-Time Analogy for Infrastructure as Code (IaC):
+Think about setting up a new laptop at your company.
+
+Manual method: Every time a new employee joins, an IT person manually installs software, sets up configurations, adds network settings — takes time and might be different each time.
+
+IaC way: The company has a script (code) that automatically sets up the laptop exactly the same way — with all required software and settings — in just minutes.
 
 - In the same way, If we are creating resources on Azure. We go to each resource like virtual machines, database, web app, storage account etc., and click on create, give the resource names selecting the drop down options, ticking the check boxes required, then we click on create and deploy the resources. Creating each resource manually takes time and there is also a chance 
 of human errors.
