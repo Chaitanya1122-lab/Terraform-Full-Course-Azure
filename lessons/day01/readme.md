@@ -71,6 +71,24 @@ Write your terraform files --> Run terraform commands --> Call the target cloud 
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/d75208b8-5a1f-4f18-8743-7fc8930c6106" />
 
 Phases: init --> validate --> plan --> apply --> destroy
+terraform init
+👉 Initializes your project folder. Downloads the required plugins/providers.
+🛠️ "Setting up the workspace to get started."
+
+terraform validate
+👉 Checks if your Terraform code is written correctly.
+✔️ "Did I write it right?"
+
+terraform plan
+👉 Shows what Terraform will do before actually doing it.
+🔍 "What changes will happen?"
+
+terraform apply
+👉 Applies the changes and creates/updates the resources.
+🚀 "Go ahead and make it real."
+
+👉 Deletes all the resources created by your Terraform code.
+🗑️ "Tear everything down and remove the setup."
 
 ## Task for Day02 
 
