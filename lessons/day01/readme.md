@@ -87,6 +87,7 @@ terraform apply
 👉 Applies the changes and creates/updates the resources.
 🚀 "Go ahead and make it real."
 
+terraform destroy
 👉 Deletes all the resources created by your Terraform code.
 🗑️ "Tear everything down and remove the setup."
 
