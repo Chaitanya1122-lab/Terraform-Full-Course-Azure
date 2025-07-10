@@ -71,6 +71,7 @@ Write your terraform files --> Run terraform commands --> Call the target cloud 
 <img width="775" alt="image" src="https://github.com/user-attachments/assets/d75208b8-5a1f-4f18-8743-7fc8930c6106" />
 
 Phases: init --> validate --> plan --> apply --> destroy
+
 terraform init
 👉 Initializes your project folder. Downloads the required plugins/providers.
 🛠️ "Setting up the workspace to get started."
