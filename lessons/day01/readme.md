@@ -17,7 +17,7 @@ Just like developers write code to build applications, with IaC, you write code 
 - Real-Time Analogy for Infrastructure as Code (IaC):
 Think about setting up a new laptop at your company.
 
-Manual method: Every time a new employee joins, an IT person manually installs software, sets up configurations, adds network settings — takes time and might be different each time.
+Manual method: Every time a new employee joins, an IT person manually installs software, sets up configurations, adds network settings — takes time and might be different each time. like for different teams or departments employees the required applications or settings may be different and it is time taking.
 
 IaC way: The company has a script (code) that automatically sets up the laptop exactly the same way — with all required software and settings — in just minutes.
 
