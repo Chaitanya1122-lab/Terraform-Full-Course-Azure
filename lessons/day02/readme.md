@@ -65,6 +65,8 @@ There different types of Terraform providers:
 
 <img width="554" alt="image" src="https://github.com/user-attachments/assets/2980dbf7-0556-4618-acab-f85ad10db2ec" />
 
+Let's say, you are using azure-location or some random field, that was introduced in 3.0.2 but that field was changed or got deleted in version 3.0.5. If you are using the latest version, your code will break over here, because your terraform file does not have that compatability with the required version that you are using.
+Which version should we specify?
 Importance of Locking Provider Versions**:
     *   It is a **best practice to specify provider versions** in your configuration files.
     *   If you don't specify a version, Terraform will default to using the latest available version.
