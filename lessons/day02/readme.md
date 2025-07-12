@@ -87,9 +87,9 @@ Importance of Locking Provider Versions**:
         *   `<` (Less than): Uses any version older than the specified one.
         *   `<=` (Less than or equal to): Uses the specified version or any older version.
         *   **`~>` (Tilde and greater than): The most important operator for version constraints**.
-            *   This operator allows only the **rightmost non-zero segment** of the version to increment.
-            *   Example 1: `~> 3.0.2` allows `3.0.5` or `3.0.10` but **not** `3.1.0` or `4.0.0`. Only the patch version (`.2`, `.5`, `.10`) can change.
-            *   Example 2: `~> 1.1` allows `1.2`, `1.3`, etc., but **not** `2.0`. Only the minor version (`.1`, `.2`, `.3`) can change.
+            *   This operator allows only the **rightmost non-zero segment** of the version to increment. This operator allows patch-level or minor version upgrades, but locks the major parts of the version.
+            *   Example 1: `~> 3.0.2` allows `3.0.5` or `3.0.10` but **not** `3.1.0` or `4.0.0`. Only the patch version (`3.0.2`, `3.0.5`, `3.0.10`) can change.
+            *   Example 2: `~> 2.0` allows `2.1`, `2.1.0`, `2.9.5`, etc., but **not** 3.0.0 the minor version and patch version (`.1`, `.2`, `.3`) can change.
 
 
 
