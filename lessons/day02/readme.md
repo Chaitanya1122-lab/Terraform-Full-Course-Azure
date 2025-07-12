@@ -56,6 +56,7 @@ There different types of Terraform providers:
 ## Provider version v/s Terraform core version
 
 <img width="412" alt="image" src="https://github.com/user-attachments/assets/18b67936-5744-43dc-a748-552544969591" />
+
 ⦁	Providers are specified within a `terraform` block in your configuration files, often under `required_providers`.
 ⦁	You must configure the provider, including specifying its source and version. For example, `azurerm` has the source `HashiCorp/azurerm`. that means it is not a partner provider, it is build and maintained by Hashicorp itself. It resides in the terraform Haschicorp registry.
 
@@ -63,6 +64,7 @@ There different types of Terraform providers:
 ## Why version matters
 
 <img width="554" alt="image" src="https://github.com/user-attachments/assets/2980dbf7-0556-4618-acab-f85ad10db2ec" />
+
 Importance of Locking Provider Versions**:
     *   It is a **best practice to specify provider versions** in your configuration files.
     *   If you don't specify a version, Terraform will default to using the latest available version.
